@@ -612,28 +612,6 @@ def command_process():
         for i in range(len(words) - 1):
             print(len(words))
             print(i)
-
-            if "i" in words and "love" in words and "you" in words:
-                a = open("user.user", "w")
-
-                if love < 2:
-                    out = "I love you too, but as a friend"
-
-                elif love < 5:
-                    out = "I love you too brother, and will always love you."
-
-                if "as" in words and "lover" in words:
-                    out = "Sorry i am a software, and you are a human, we can't match up, next time don't say this to me or else i will suicide"
-                    if love > 2:
-                        out = "Goodbye foreve, I am comitting suicide"
-                love = love + 1
-                print(love)
-                for i in range(len(us) - 1):
-                    print(us[i])
-                    a.write(us[i])
-                a.write(str(love))
-                break
-
             if "how" in words and "are" in words and "you" in words:
                 out = "I am fine, thanks for asking, hope same for you"
                 print()
